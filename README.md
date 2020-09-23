@@ -10,7 +10,7 @@ Try it out here: [https://discord.gg/NxrPp8g](https://discord.gg/NxrPp8g)
 
 # Docker
 
-1. Install wsl2 https://docs.microsoft.com/en-us/windows/wsl/install-win10
+1. If your on windows10, Install wsl2 https://docs.microsoft.com/en-us/windows/wsl/install-win10 else go to step two ;)
 2. Install docker https://docs.docker.com/get-docker/
 3. Add a file named google-auth.json to the project root directory with the google credential stuff, or leave empty
 4. Copy `config\auth.example.json` and rename it as `config\auth.json` Add in the appropriate tokens, turn off or on tts services. If your just using google TTS Turn off amazon and azure
