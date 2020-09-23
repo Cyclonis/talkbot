@@ -13,7 +13,7 @@ Try it out here: [https://discord.gg/NxrPp8g](https://discord.gg/NxrPp8g)
 1. Install wsl2 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 2. Install docker https://docs.docker.com/get-docker/
 3. Add a file named google-auth.json to the project root directory with the google credential stuff, or leave empty
-4. Copy config\auth.example.json and rename it as `config\auth.json` Add in the appropriate tokens, turn off or on tts services. If your just using google TTS Turn off amazon and azure
+4. Copy `config\auth.example.json` and rename it as `config\auth.json` Add in the appropriate tokens, turn off or on tts services. If your just using google TTS Turn off amazon and azure
 5. In your command line run `docker build --tag talkbot:1.0 .` this will take a while.
 6. Then run `docker run --publish 80:80 --name tb1 talkbot:1.0`
 7. It should be running now.
